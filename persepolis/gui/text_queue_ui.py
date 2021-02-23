@@ -233,7 +233,7 @@ class TextQueue_Ui(QWidget):
 
         self.connections_spinBox = QSpinBox(self.connections_frame)
         self.connections_spinBox.setMinimum(1)
-        self.connections_spinBox.setMaximum(16)
+        #nomaxx# self.connections_spinBox.setMaximum(16)
         self.connections_spinBox.setProperty("value", 16)
 
         horizontalLayout_3.addWidget(self.connections_spinBox)
