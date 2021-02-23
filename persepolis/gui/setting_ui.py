@@ -161,7 +161,7 @@ class Setting_Ui(QWidget):
 
         self.connections_spinBox = QSpinBox(self.download_options_tab)
         self.connections_spinBox.setMinimum(1)
-        self.connections_spinBox.setMaximum(16)
+        #nomaxx# self.connections_spinBox.setMaximum(16)
         connections_horizontalLayout.addWidget(self.connections_spinBox)
 
         download_options_tab_verticalLayout.addLayout(connections_horizontalLayout)
@@ -461,7 +461,7 @@ class Setting_Ui(QWidget):
         # max_links_spinBox
         self.max_links_spinBox = QSpinBox(self.video_finder_tab)
         self.max_links_spinBox.setMinimum(1)
-        self.max_links_spinBox.setMaximum(16)
+        #nomaxx# self.max_links_spinBox.setMaximum(16)
         max_links_horizontalLayout.addWidget(self.max_links_spinBox)
         video_finder_tab_verticalLayout.addLayout(max_links_horizontalLayout)
 
